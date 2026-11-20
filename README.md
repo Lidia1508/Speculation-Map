@@ -8,7 +8,11 @@ In this repository you can find two folders:
 
 · Data: includes five raw datasets obtained from different organisms.
 
-    · RentPrice is a dataset that ... obtained from: https://analisi.transparenciacatalunya.cat/?sortBy=relevance&page=1&pageSize=20
+    · RentPrice is a dataset that ... obtained from: https://analisi.transparenciacatalunya.cat/Habitatge/Preu-mitj-del-lloguer-d-habitatges-per-municipi/qww9-bvhh/about_data
+    · EmptyBuildings is a dataset that ... obtained from https://analisi.transparenciacatalunya.cat/Hisenda/Impost-sobre-els-habitatges-buits-IHB-per-municipi/w8kv-kmwv/about_data
+    · TouristicRentals is a dataset that ... obtained from https://analisi.transparenciacatalunya.cat/Turisme/Establiments-d-allotjament-tur-stic-inscrits-al-Re/t2h3-cgys/about_data
+    · Buildings Available is a dataset that ... obtained from https://www.idescat.cat/pub/?id=censph&n=30&geo=mun&t=202100
+    · Habitants is a dataset that ...  obtained from https://www.idescat.cat/pub/?id=censph&n=538&by=mun&t=202100&hist=taules%2Fv2%2Fcensph%2F538%2F565%2Fmun%2Fdata%3FYEAR%3D1981%2C1991%2C2001%2C2011%2C2021%5Etab%3Dd%2Fcl%3D1%2C0%2Fc%3D2%2Fr%3D1%2C0%2Ft%3D-1c%3B-0dc%3B-2c%2Fe%3D0
     · 
 
 · Code:
