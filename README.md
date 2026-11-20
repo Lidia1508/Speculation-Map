@@ -9,12 +9,15 @@ In this repository you can find two folders:
 · Data: includes five raw datasets obtained from different organisms.
 
     · RentPrice is a dataset that ... obtained from: https://analisi.transparenciacatalunya.cat/?sortBy=relevance&page=1&pageSize=20
+    · 
 
 · Code:
 
 ## Getting started 
 
 ### Dependencies
+
+
 
 ### Installing
 
