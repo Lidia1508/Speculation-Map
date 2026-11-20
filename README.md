@@ -8,14 +8,25 @@ In this repository you can find two folders:
 
 · Data: includes five raw datasets obtained from different organisms.
 
-    · RentPrice is a dataset that ... obtained from: https://analisi.transparenciacatalunya.cat/Habitatge/Preu-mitj-del-lloguer-d-habitatges-per-municipi/qww9-bvhh/about_data
-    · EmptyBuildings is a dataset that ... obtained from https://analisi.transparenciacatalunya.cat/Hisenda/Impost-sobre-els-habitatges-buits-IHB-per-municipi/w8kv-kmwv/about_data
-    · TouristicRentals is a dataset that ... obtained from https://analisi.transparenciacatalunya.cat/Turisme/Establiments-d-allotjament-tur-stic-inscrits-al-Re/t2h3-cgys/about_data
+    · RentPrice is a dataset structured in 8 columns: territorial scope, code of the territory (INE code), name of the territory, year in which the data was taken (rent was active), period in which the data was taken, number of rented houses, mean price of the rent (for territories with 6 or more houses in rental), classification by range of mean price of the rent. We have obtained this information from the census of rented houses of each municipality. When a house is rented the owner has the possibility to register the contract in Registre de la Propietat. This is a widespread practice as it ensures legal protection for both parts, the owner and the renter. In order to guarantee anonymity, the mean price of the rent in a municipality only appears if there are six or more houses rented. 
+    
+    Obtained from: https://analisi.transparenciacatalunya.cat/Habitatge/Preu-mitj-del-lloguer-d-habitatges-per-municipi/qww9-bvhh/about_data
+    
+    · EmptyBuildings is a dataset that contains the number of vacant dwellings declared by their holders subject to a direct tas on empty properties in the region of Catalonia. This tax applies in the case of a property left vacant for more than two years without a justified reason and can concern legal entities, securization funds and individuals qualified as "large holders". This tax is declared by the Gonvernment of Catalonia (Generalitat de Catalunya) and is specific to the territory of Catalonia. The dataset covers a taxation period going from 2018 to 2025 and mention the number of vacant habitations per municipality such as the useful surface occupied by those ones. Anther column states if the concerned municipality was exempt to the taw or not. More precisely, the dataset is composed of seven columns denoting respectively the rear of taxation, the postal code of the municipality, its name, if it was exempt or not, the number of dwellings subject to the tax, the number of "large holders" or similar entities proprietary of those same dwellings ans the useful surface occupied by the empty habitations. The dataset is provided by the Agència Tributària de Catalunya (ATC) and was created the 3rd of Jannuary 2024. It has a yearly frequency of actualization and its last update was on the 28th of September 2026. 
+    
+    Obtained from https://analisi.transparenciacatalunya.cat/Hisenda/Impost-sobre-els-habitatges-buits-IHB-per-municipi/w8kv-kmwv/about_data
+    
+    · TouristicRentals is a dataset that provides a list of companies and tourist establishments that professionally provide tourist accommodation services. The data was extracted from Registre de Turisme de Catalunya, elaborated by Departament d'Empresa i Treball, where every personal owner or company must register the property (according to Llei 13/2002, de 21 de juny, de turisme de Catalunya) using a specific form depending on the type of establishment. This form collects all the specificities of the establishment, including adress, number of beds and surface. If there's one owner, their personal data is also collected but only shown if they have agreed to, ensuring their right to privacity. Once the establishment is registered, Registre de Turisme de Catalunya grants a three letter code that identifies all the companies and tourist establishments in Catalonia. The first initial corresponds to the type of tourist accommodation (H for hotel establishments, AT for tourist apartment establishments, K for camping establishments, A for motorhome reception areas, P for rural tourism establishments, HUT for tourist housing, LL for shared homes) and the following initials refer to the territorial services where it is located: Barcelona, Central Catalonia, Girona, Lleida, Tarragona, Terres de l'Ebre and Val d'Aran. All the data obtained from this forms is merged in a CSV file, classified in 33 columns (type of establishment, inscription number, tax payment control digit, name of the establishment, state, type of street, street name, number, floor, door, staircase, block, postal code, municipality, code of the municipality (IDESCAT), county, code of the county (IDESCAT), province, cadastral reference, certificate of occupancy, group and category for rural tourism establishments, accommodation unit, total number of beds, total number of rooms, Territorial Service where the establishment is located, tourist brand, CIF and Company name of the establishment owner when it's a legal entity). The data is updated monthly.  
+    
+    Obtained from https://analisi.transparenciacatalunya.cat/Turisme/Establiments-d-allotjament-tur-stic-inscrits-al-Re/t2h3-cgys/about_data
+    
     · Buildings Available is a dataset that ... obtained from https://www.idescat.cat/pub/?id=censph&n=30&geo=mun&t=202100
     · Habitants is a dataset that ...  obtained from https://www.idescat.cat/pub/?id=censph&n=538&by=mun&t=202100&hist=taules%2Fv2%2Fcensph%2F538%2F565%2Fmun%2Fdata%3FYEAR%3D1981%2C1991%2C2001%2C2011%2C2021%5Etab%3Dd%2Fcl%3D1%2C0%2Fc%3D2%2Fr%3D1%2C0%2Ft%3D-1c%3B-0dc%3B-2c%2Fe%3D0
     · 
 
-· Code:
+ A .json file used to plot the Catalunya map distributed by municipalities.
+
+· Code: includes four Jupyter Notebooks with the coding of the maps presenting the territorial distribution of its respective variable.
 
 ## Getting started 
 
