@@ -20,12 +20,12 @@ Obtained from https://analisi.transparenciacatalunya.cat/Hisenda/Impost-sobre-el
     
 Obtained from https://analisi.transparenciacatalunya.cat/Turisme/Establiments-d-allotjament-tur-stic-inscrits-al-Re/t2h3-cgys/about_data
     
-    · Buildings Available is a dataset that ... obtained from https://www.idescat.cat/pub/?id=censph&n=30&geo=mun&t=202100
-    · Habitants is a dataset that ...  obtained from https://www.idescat.cat/pub/?id=censph&n=538&by=mun&t=202100&hist=taules%2Fv2%2Fcensph%2F538%2F565%2Fmun%2Fdata%3FYEAR%3D1981%2C1991%2C2001%2C2011%2C2021%5Etab%3Dd%2Fcl%3D1%2C0%2Fc%3D2%2Fr%3D1%2C0%2Ft%3D-1c%3B-0dc%3B-2c%2Fe%3D0
+· Buildings Available is a dataset that ... obtained from https://www.idescat.cat/pub/?id=censph&n=30&geo=mun&t=202100
+· Habitants is a dataset that ...  obtained from https://www.idescat.cat/pub/?id=censph&n=538&by=mun&t=202100&hist=taules%2Fv2%2Fcensph%2F538%2F565%2Fmun%2Fdata%3FYEAR%3D1981%2C1991%2C2001%2C2011%2C2021%5Etab%3Dd%2Fcl%3D1%2C0%2Fc%3D2%2Fr%3D1%2C0%2Ft%3D-1c%3B-0dc%3B-2c%2Fe%3D0
 
-    · A .json file used to plot the Catalunya map distributed by municipalities.
+· A .json file used to plot the Catalunya map distributed by municipalities.
 
-    Obtained from???????????????
+Obtained from???????????????
 
 · Code: includes four Jupyter Notebooks with the coding of the maps presenting the territorial distribution of its respective variable.
 
