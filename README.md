@@ -6,7 +6,8 @@ This repository is intended to give a territorial description of some variables 
 
 In this repository you can find two folders:
 
-· Data: includes six raw datasets obtained from different organisms.
+DATA: 
+Includes six raw datasets obtained from different organisms.
 
 · RentPrice is a dataset structured in 8 columns: territorial scope, code of the territory (INE code), name of the territory, year in which the data was taken (rent was active), period in which the data was taken, number of rented houses, mean price of the rent (for territories with 6 or more houses in rental), classification by range of mean price of the rent. We have obtained this information from the census of rented houses of each municipality. When a house is rented the owner has the possibility to register the contract in Registre de la Propietat. This is a widespread practice as it ensures legal protection for both parts, the owner and the renter. In order to guarantee anonymity, the mean price of the rent in a municipality only appears if there are six or more houses rented. 
     
@@ -20,14 +21,25 @@ Obtained from https://analisi.transparenciacatalunya.cat/Hisenda/Impost-sobre-el
     
 Obtained from https://analisi.transparenciacatalunya.cat/Turisme/Establiments-d-allotjament-tur-stic-inscrits-al-Re/t2h3-cgys/about_data
     
+<<<<<<< HEAD
+    · Buildings Available is a dataset that ... 
+    
+Obtained from https://www.idescat.cat/pub/?id=censph&n=30&geo=mun&t=202100
+    
+    · Habitants is a dataset that ...  
+    
+Obtained from https://www.idescat.cat/pub/?id=censph&n=538&by=mun&t=202100&hist=taules%2Fv2%2Fcensph%2F538%2F565%2Fmun%2Fdata%3FYEAR%3D1981%2C1991%2C2001%2C2011%2C2021%5Etab%3Dd%2Fcl%3D1%2C0%2Fc%3D2%2Fr%3D1%2C0%2Ft%3D-1c%3B-0dc%3B-2c%2Fe%3D0
+=======
 · Buildings Available is a dataset that ... obtained from https://www.idescat.cat/pub/?id=censph&n=30&geo=mun&t=202100
 · Habitants is a dataset that ...  obtained from https://www.idescat.cat/pub/?id=censph&n=538&by=mun&t=202100&hist=taules%2Fv2%2Fcensph%2F538%2F565%2Fmun%2Fdata%3FYEAR%3D1981%2C1991%2C2001%2C2011%2C2021%5Etab%3Dd%2Fcl%3D1%2C0%2Fc%3D2%2Fr%3D1%2C0%2Ft%3D-1c%3B-0dc%3B-2c%2Fe%3D0
+>>>>>>> a29b0260aaa2a37e898bcddeabd3bdf1ad350a36
 
 · A .json file used to plot the Catalunya map distributed by municipalities.
 
 Obtained from???????????????
 
-· Code: includes four Jupyter Notebooks with the coding of the maps presenting the territorial distribution of its respective variable.
+CODE:
+Includes four Jupyter Notebooks with the coding of the maps presenting the territorial distribution of its respective variable.
 
 ## Getting started 
 
@@ -37,11 +49,14 @@ Obtained from???????????????
 
 ### Executing program
 
-## Help
-
 ## Authors
+Adrià Benito Carayol
+Thomas Giuri 
+Pol Ramos Rodríguez
+Lídia Vicente Sánchez
 
 ## Version history
+1.0
 
 ## License
 
