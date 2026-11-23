@@ -45,9 +45,9 @@ Includes four Jupyter Notebooks with the coding of the maps presenting the terri
 ### Executing program
 
 ## Authors
-Adrià Benito Carayol (adriabenito)
-Thomas Giuri (tgiuri01)
-Pol Ramos Rodríguez (pramosro)
+Adrià Benito Carayol (adriabenito) \\
+Thomas Giuri (tgiuri01) \\
+Pol Ramos Rodríguez (pramosro) \\
 Lídia Vicente Sánchez (Lidia1508)
 
 ## Version history
