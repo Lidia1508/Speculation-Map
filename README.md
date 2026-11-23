@@ -21,22 +21,17 @@ Obtained from https://analisi.transparenciacatalunya.cat/Hisenda/Impost-sobre-el
     
 Obtained from https://analisi.transparenciacatalunya.cat/Turisme/Establiments-d-allotjament-tur-stic-inscrits-al-Re/t2h3-cgys/about_data
     
-<<<<<<< HEAD
-    · Buildings Available is a dataset that ... 
+· Buildings Available is a dataset that captures the demographic evolution of the 947 municipalities in Catalonia (also including the regional aggregate total). The data were collected by the INE in the decennial Population and Housing Census and published by Idescat aggregated at municipal level; the project stores them in a lightweight, interoperable tabular .xlsx file. Structurally, it features a municipal spatial granularity and a decennial periodicity corresponding to the 1981, 1991, 2001, 2011, and 2021 census waves, recording for each territorial unit and census year the municipality code and name alongside the resident population disaggregated by sex (Men, Women, and Total). From an ethical and legal standpoint, the original collection by the INE is subject to statistical secrecy rules and to the GDPR and the Spanish Organic Law on Data Protection and Guarantee of Digital Rights (LOPDGDD), and the project only reuses the published aggregates, so it handles no personal data. To protect citizen confidentiality, the statistical office removed all direct and indirect personal identifiers and published the information exclusively in aggregated form at the municipal level; furthermore, in municipalities with very low populations where cross-tabulation could compromise statistical anonymity, cell suppression (explicitly coded as (..)) is applied in the published data to guarantee statistical secrecy and prevent individual re-identification. 
     
 Obtained from https://www.idescat.cat/pub/?id=censph&n=30&geo=mun&t=202100
     
-    · Habitants is a dataset that ...  
+· Habitants is a dataset that This quantitative, structured dataset captures the composition and evolution of the residential housing stock across the 947 municipalities in Catalonia (also including the regional aggregate total). It comes from the same INE Population and Housing Census, published by Idescat aggregated by municipality, and is stored in plain-text .csv files (UTF-8 encoding, semicolon-delimited ;). The published files were processed by the project team via an automated Python workflow to clean the tabular structure, normalize municipal toponyms, standardize numeric data types, and ensure that the official 6-digit municipality code serves as a unique identifier for error-free merging with the population dataset. Structurally, the files exhibit a municipal spatial granularity and a decennial time series corresponding to the 1981, 1991, 2001, 2011, and 2021 census waves, breaking down the municipal housing stock into conventional family dwellings (distinguishing between primary and non-primary residences), non-conventional family dwellings (accommodations), total family dwellings, and the count of collective establishments. From an ethical and legal perspective, the data are published by the statistical office already aggregated at the municipal level, without household or address identifiers (such as exact street addresses or individual cadastral references), under the GDPR and LOPDGDD framework. The project only reuses these aggregates and handles no personal data, so the re-identification of specific owners or properties is not feasible from them, and territorial stigmatization biases are avoided during analysis.
     
 Obtained from https://www.idescat.cat/pub/?id=censph&n=538&by=mun&t=202100&hist=taules%2Fv2%2Fcensph%2F538%2F565%2Fmun%2Fdata%3FYEAR%3D1981%2C1991%2C2001%2C2011%2C2021%5Etab%3Dd%2Fcl%3D1%2C0%2Fc%3D2%2Fr%3D1%2C0%2Ft%3D-1c%3B-0dc%3B-2c%2Fe%3D0
-=======
-· Buildings Available is a dataset that ... obtained from https://www.idescat.cat/pub/?id=censph&n=30&geo=mun&t=202100
-· Habitants is a dataset that ...  obtained from https://www.idescat.cat/pub/?id=censph&n=538&by=mun&t=202100&hist=taules%2Fv2%2Fcensph%2F538%2F565%2Fmun%2Fdata%3FYEAR%3D1981%2C1991%2C2001%2C2011%2C2021%5Etab%3Dd%2Fcl%3D1%2C0%2Fc%3D2%2Fr%3D1%2C0%2Ft%3D-1c%3B-0dc%3B-2c%2Fe%3D0
->>>>>>> a29b0260aaa2a37e898bcddeabd3bdf1ad350a36
 
 · A .json file used to plot the Catalunya map distributed by municipalities.
 
-Obtained from???????????????
+Obtained from https://www.icgc.cat/ca/Geoinformacio-i-mapes/Dades-i-productes/Geoinformacio-cartografica/Divisions-administratives
 
 CODE:
 Includes four Jupyter Notebooks with the coding of the maps presenting the territorial distribution of its respective variable.
@@ -50,10 +45,10 @@ Includes four Jupyter Notebooks with the coding of the maps presenting the terri
 ### Executing program
 
 ## Authors
-Adrià Benito Carayol
-Thomas Giuri 
-Pol Ramos Rodríguez
-Lídia Vicente Sánchez
+Adrià Benito Carayol (adriabenito)
+Thomas Giuri (tgiuri01)
+Pol Ramos Rodríguez (pramosro)
+Lídia Vicente Sánchez (Lidia1508)
 
 ## Version history
 1.0
