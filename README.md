@@ -26,6 +26,10 @@ This repository is intended to give a territorial description and/or time evolut
 | `Figures/` | Files the notebooks write (not committed) |
 
 
+## AI usage
+
+AI usage is detailed in each notebook.
+
 ## Authors
 Adrià Benito Carayol (adriabenito) \\
 Thomas Giuri (tgiuri01) \\
